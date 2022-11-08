@@ -15,5 +15,5 @@ div.mapa{
 	height: 0;
 	background-color: #CCC;
 	border-radius: 50%;
-	box-shadow: 1px 1px 8px rgba(0,0,0,0.7);
+	box-shadow: 1px 1px 12px rgba(0,0,0,0.7);
 }
