@@ -6,15 +6,15 @@ function colocar(event){
 	let map1 = document.querySelector("div#mapa1");
 	let map2 = document.querySelector("div#mapa2");
 	
-	let alto = ivt.height*0.03; 
+	let diam = ivt.height*0.05;
 	
-	map1.style.top = ivt.height/2 + ivt.height*0.1;
-	map1.style.left = ivt.width/2 + ivt.height*0.07;
-	map1.style.width = alto;
-	map1.style.height = alto;
+	map1.style.top = ivt.height/2 + diam*0.9;
+	map1.style.left = ivt.width/2 + diam*4.2;
+	map1.style.width = diam;
+	map1.style.height = diam;
 	
-	map2.style.top = ivt.height/2 + ivt.height*0.2;
-	map2.style.left = ivt.width/2 + ivt.height*0.07;
-	map2.style.width = alto;
-	map2.style.height = alto;
+	map2.style.top = ivt.height/2 + diam*3.5;
+	map2.style.left = ivt.width/2 + diam*4.2;
+	map2.style.width = diam;
+	map2.style.height = diam;
 }
